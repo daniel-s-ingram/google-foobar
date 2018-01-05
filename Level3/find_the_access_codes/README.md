@@ -1,5 +1,6 @@
 Find the Access Codes
 =====================
+
 In order to destroy Commander Lambda's LAMBCHOP doomsday device, you'll need access to it. But the only door leading to
 the LAMBCHOP chamber is secured with a unique lock system whose number of passcodes changes daily. Commander Lambda
 gets a report every day that includes the locks' access codes, but only she knows how to figure out which of several
@@ -15,12 +16,16 @@ Write a function answer(l) that takes a list of positive integers l and counts t
 between 1 and 999999 inclusive.  The answer fits within a signed 32-bit integer. Some of the lists are purposely
 generated without any access codes to throw off spies, so if no triples are found, return 0.
 For example, [1, 2, 3, 4, 5, 6] has the triples: [1, 2, 4], [1, 2, 6], [1, 3, 6], making the answer 3 total.
+
 Languages
 =========
+
 To provide a Python solution, edit solution.py
 To provide a Java solution, edit solution.java
+
 Test cases
 ==========
+
 Inputs:
     (int list) l = [1, 1, 1]
 Output:
