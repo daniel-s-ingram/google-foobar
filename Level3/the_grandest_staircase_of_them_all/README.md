@@ -9,27 +9,27 @@ Each type of staircase should consist of 2 or more steps.  No two steps are allo
 For example, when N = 3, you have only 1 choice of how to build the staircase, with the first step having a height of 2 and the second step having a height of 1: (# indicates a brick)
 
 \#
-##
+\#\#
 21
 
 When N = 4, you still only have 1 staircase choice:
 
-#
-#
-##
+\#
+\#
+\#\#
 31
  
 But when N = 5, there are two ways you can build a staircase from the given bricks. The two staircases can have heights (4, 1) or (3, 2), as shown below:
 
-#
-#
-#
-##
+\#
+\#
+\#
+\#\#
 41
 
-#
-##
-##
+\#
+\#\#
+\#\#
 32
 
 Write a function called answer(n) that takes a positive integer n and returns the number of different staircases that can be built from exactly n bricks. n will always be at least 3 (so you can have a staircase at all), but no more than 200, because Commander Lambda's not made of money!
